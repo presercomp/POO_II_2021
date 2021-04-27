@@ -47,7 +47,7 @@ if($operando !== null && $operador !== null && $operacion !== null){
                 <form action="arimetica.php" method="GET">
                     <div class="form-group">
                         <label for="operando" class="label-control">Primer Número</label>
-                        <input type="text" class="form-control" id="operando" name="operando">
+                        <input type="number" class="form-control" id="operando" name="operando">
                     </div>
                     <div class="form-group">
                         <label for="operacion" class="label-control">Operación</label>
@@ -60,7 +60,7 @@ if($operando !== null && $operador !== null && $operacion !== null){
                     </div>
                     <div class="form-group">
                         <label for="operador" class="label-control">Segundo Número</label>
-                        <input type="text" class="form-control" id="operador" name="operador">
+                        <input type="number" class="form-control" id="operador" name="operador">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success btn-block"><i class="fas fa-calculator"></i> Calcular</button>
